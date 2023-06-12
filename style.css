@@ -1,0 +1,128 @@
+body{
+    background-color: white;
+
+}
+
+h1{
+font-family: 'Righteous', cursive;
+color: aliceblue;
+font-size: 70px;
+
+}
+
+
+/* Color: #1566C0 */
+
+.cstHeader{
+    background-image: url(./media/wave2.svg) , url(./media/wave1.svg),  url(./media/header.jpg) ;
+    background-size:contain, contain, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position-y: bottom, 355px;
+    height: 100vh;
+}
+
+.cst-para{
+    color: aliceblue;
+}
+
+.custom-button{
+    border: 2px hidden;
+    background-color: orange;
+    width: 120px;
+    height: 50px;
+}
+
+.link-button{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+/* Prima sezione */
+
+.titlesez{
+    font-family: 'Righteous', cursive;
+    color:  #1566C0;
+    text-align: center;
+
+}
+
+
+/* SEZIONE CARD */
+.card-title{
+    color: aliceblue;
+    font-family: 'Righteous', cursive;
+    border-bottom: 5px solid orange;
+}
+
+.para-card{
+    margin-top: 60px;
+    color: antiquewhite;
+}  
+
+
+.bg-cst{
+
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0) 10%, rgba(0,0,0,0.6699054621848739) 85%), url(./media/1.png);
+
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.bg-cst2{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0) 10%, rgba(0,0,0,0.6699054621848739) 85%), url(./media/2.png);
+    
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.bg-cst3{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0) 10%, rgba(0,0,0,0.6699054621848739) 85%), url(./media/3.png);
+    
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.bg-cst4{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0) 10%, rgba(0,0,0,0.6699054621848739) 85%), url(./media/4.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+/* FINE SEZIONE CARD */
+
+
+/* INIZIO SEZIONE 1 */
+.card-shadow{
+    border: 1px hidden;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 5px 5px 5px lightgray;
+
+}
+
+.cst-box{
+    
+    border: hidden;
+    border-radius: 10px;
+    width: 50px ;
+    height: 50px;
+    padding: 15px;
+    box-shadow: 0px 5px 5px 5px lightgray;
+}
+
+.cst-titlesez{
+    
+    font-family: 'Righteous', cursive;
+    color:  #1566C0;
+    
+
+}
